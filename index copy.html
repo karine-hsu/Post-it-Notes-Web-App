@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+		<title>Sticky Notes</title>
+		
+		<meta charset='utf-8'>    
+    	<link rel="stylesheet" type="text/css" href="style.css" />
+    	<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&amp;subset=latin' rel='stylesheet' type='text/css'>
+
+		
+</head>
+
+<body>
+
+<div id='controls'>
+	<form id='controls_form'>
+
+		<table id='controls_table'>
+						<tbody>
+							
+							<tr class='controlspopup'>
+								<td class='leftcontrols'>
+									
+								</td>
+								<td>
+									<input class="controls_input" id="note" type="text" placeholder="Write Note Here..."/><br />
+								</td>
+							</tr>
+							<tr class='controlspopup'>
+								<td class='leftcontrols'>
+								</td>
+								<td>
+                                    <input type="submit" id="add_sticky" value="Add Note" />
+                                </td>
+							</tr>
+							<tr class='controlspopup'>
+								<td class='leftcontrols'>
+								</td>
+								<td>
+                                    <input type = "button" id="clear_sticky" onclick="clearSticky()" value="Clear Page">
+						</tbody>
+					</table>
+				</form>
+			</div>
+
+<ul id="stickies">
+</ul>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src='stickynotes copy.js'></script>
