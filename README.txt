@@ -1,12 +1,8 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+Post-note Web App! My first complete project :D 
 
-\f0\fs24 \cf0 Post-note Web App! My first complete project :D \
-\
-Type text in text box to add note. \
-Click to change the post-it note color! \
-Refresh to clear page of notes. \
-Clear Page to clear localStorage. }
+Features:
+
+Type text in text box and click Add note to add note to page. 
+Click on post-it note to change its color! 
+Refresh page to clear page of notes. 
+Clear Page to clear localStorage.
